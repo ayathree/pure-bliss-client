@@ -1,0 +1,11 @@
+.scroll-hidden::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+                    
+}
+
+
+.bold-placeholder::placeholder {
+    font-weight: bold;
+    color: black;
+}
