@@ -75,27 +75,27 @@ const Navbar = () => {
                 <div className={`${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-2 transition-all duration-300 ease-in-out bg-white top-16 dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 `}>
                 <div className="py-3 lg:mt-20 -mx-3 flex flex-col lg:flex-row lg:justify-center justify-start lg:items-center overflow-y-auto whitespace-nowrap scroll-hidden">
                    <div className='flex mb-3 flex-row justify-between items-center'>
-                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Home</a>
+                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200  hover:underline md:my-0" href="#">Home</a>
                     <FaChevronRight className='md:block' />
 
                    </div>
                    <div className='flex mb-3 flex-row justify-between items-center'>
-                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Pages</a>
+                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200  hover:underline md:my-0" href="#">Pages</a>
                     <FaChevronRight className='md:block' />
 
                    </div>
                    <div className='flex mb-3 flex-row justify-between items-center'>
-                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Store</a>
+                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200  hover:underline md:my-0" href="#">Store</a>
                     <FaChevronRight className='md:block' />
 
                    </div>
                    <div className='flex mb-3 flex-row justify-between items-center'>
-                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Shop</a>
+                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200  hover:underline md:my-0" href="#">Shop</a>
                     <FaChevronRight className='md:block' />
 
                    </div>
                    <div className='flex mb-3 flex-row justify-between items-center'>
-                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Blog</a>
+                   <a className="mx-4 text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200  hover:underline md:my-0" href="#">Blog</a>
                     <FaChevronRight className='md:block' />
 
                    </div>
