@@ -41,7 +41,7 @@ const Slider = () => {
               src={slider1}
               alt="Slide 1"
               style={{
-                height: '70vh', // Adjust image height according to viewport height
+                height: '80vh', // Adjust image height according to viewport height
                 width: '100%',
                 objectFit: 'cover', // Ensure the image covers the whole area
               }}
@@ -91,7 +91,7 @@ const Slider = () => {
               src={slider2}
               alt="Slide 2"
               style={{
-                height: '70vh',
+                height: '80vh',
                 width: '100%',
                 objectFit: 'cover',
               }}
@@ -142,7 +142,7 @@ const Slider = () => {
               src={slider3}
               alt="Slide 3"
               style={{
-                height: '70vh',
+                height: '80vh',
                 width: '100%',
                 objectFit: 'cover',
               }}
