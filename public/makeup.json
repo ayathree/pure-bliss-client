@@ -1,0 +1,143 @@
+[
+    {
+      "product_name": "Matte Lipstick",
+      "price": 15.99,
+      "image": "https://i.ibb.co/xs34ZMy/2tgjv-512.jpg",
+      "category": "Lips",
+      "brand_name": "LuxeBeauty"
+    },
+    {
+      "product_name": "Hydrating Foundation",
+      "price": 22.49,
+      "image": "https://i.ibb.co/Gt1jN2q/F6508-1.jpg",
+      "category": "Face",
+      "brand_name": "GlamUp"
+    },
+    {
+      "product_name": "Waterproof Mascara",
+      "price": 12.00,
+      "image": "https://i.ibb.co/Bc47Lzq/maybelline-lash-sensational-sky-high-waterproof-mascara-e09d1cf337bc4705a8e48a17f178ed55.jpg",
+      "category": "Eyes",
+      "brand_name": "BoldEyes"
+    },
+    {
+      "product_name": "Brow Definer",
+      "price": 9.99,
+      "image": "https://i.ibb.co/s99mTJj/Brow-Definer-Nr-1-Blond-Grey-PH10738-1-2.jpg",
+      "category": "Brows",
+      "brand_name": "BrowMaster"
+    },
+    {
+      "product_name": "Shimmer Eyeshadow Palette",
+      "price": 29.99,
+      "image": "https://i.ibb.co/7YZMY8w/91r-H4-MWUa-BL.jpg",
+      "category": "Eyes",
+      "brand_name": "ColorPop"
+    },
+    {
+      "product_name": "Gel Eyeliner",
+      "price": 7.49,
+      "image": "https://i.ibb.co/1ndz3yJ/64ec99a2edf1245f8d6602d2-rimmel-london-scandaleyes-waterproof-gel.jpg",
+      "category": "Eyes",
+      "brand_name": "Lashify"
+    },
+    {
+      "product_name": "Liquid Blush",
+      "price": 14.00,
+      "image": "https://i.ibb.co/2W1DjbS/Mauve-Poppins.jpg",
+      "category": "Face",
+      "brand_name": "CheekChic"
+    },
+    {
+      "product_name": "Highlighter Stick",
+      "price": 11.99,
+      "image": "https://i.ibb.co/Mkt0Mkh/images-q-tbn-ANd9-Gc-TNchme8-Tw-TYTMo-Gm4r-EUa-KIs-Tpcp-NYUgip-NQ-s.jpg",
+      "category": "Face",
+      "brand_name": "GlowPro"
+    },
+    {
+      "product_name": "Liquid Lipstick",
+      "price": 13.99,
+      "image": "https://i.ibb.co/kMRM6s8/SB-302-12-C-1400x.jpg",
+      "category": "Lips",
+      "brand_name": "VelvetKiss"
+    },
+    {
+      "product_name": "Setting Spray",
+      "price": 18.00,
+      "image": "https://i.ibb.co/QKyJCL0/64e39d082dd50321e80108c8-milani-make-it-dewy-setting-spray-hydra.jpg",
+      "category": "Face",
+      "brand_name": "Fix&Glow"
+    },
+    {
+      "product_name": "Cream Eyeshadow",
+      "price": 10.99,
+      "image": "https://i.ibb.co/3kzr0v9/71-Lef6msld-L.jpg",
+      "category": "Eyes",
+      "brand_name": "SmoothShades"
+    },
+    {
+      "product_name": "Volumizing Mascara",
+      "price": 16.50,
+      "image": "https://i.ibb.co/fdLNYFJ/610e0-Iz-Ivi-L-AC-UF1000-1000-QL80.jpg",
+      "category": "Eyes",
+      "brand_name": "LashLux"
+    },
+    {
+      "product_name": "Brow Gel",
+      "price": 8.99,
+      "image": "https://i.ibb.co/ydY3zzW/MP000000010706928-437-Wx649-H-202206211720211.jpg",
+      "category": "Brows",
+      "brand_name": "ArchAngel"
+    },
+    {
+      "product_name": "Compact Powder",
+      "price": 19.99,
+      "image": "https://i.ibb.co/9Ybtfpq/ivory-glow1.png",
+      "category": "Face",
+      "brand_name": "FlawlessFinish"
+    },
+    {
+      "product_name": "Tinted Moisturizer",
+      "price": 21.49,
+      "image": "https://i.ibb.co/ryz4TP7/61ep-NPc8-Xg-L.jpg",
+      "category": "Face",
+      "brand_name": "HydraGlow"
+    },
+    {
+      "product_name": "Lip Gloss",
+      "price": 8.99,
+      "image": "https://i.ibb.co/hMY7Hzg/MG-8303-2-W.jpg",
+      "category": "Lips",
+      "brand_name": "ShineOn"
+    },
+    {
+      "product_name": "Contour Palette",
+      "price": 25.99,
+      "image": "https://i.ibb.co/R4dTSM5/K0-Wgz7-VRMOUDwxhmt-NCEq-Wm-Ew-WQ4-YNk4-Tm-Fb2-Fw-U.jpg",
+      "category": "Face",
+      "brand_name": "ShapeNGlow"
+    },
+    {
+      "product_name": "Matte Liquid Lipstick",
+      "price": 12.49,
+      "image": "https://i.ibb.co/D538VkM/Fire-Lily02-1.jpg",
+      "category": "Lips",
+      "brand_name": "LuxeKiss"
+    },
+    {
+      "product_name": "Loose Setting Powder",
+      "price": 17.99,
+      "image": "https://i.ibb.co/YTQSYD0/ay-O7v-PCj-0-2-Product-689304250016-Anastasia-Beverly-Hills-Loose-Setting-Powder-Banana-67865f0a5ba1.png",
+      "category": "Face",
+      "brand_name": "StayMatte"
+    },
+    {
+      "product_name": "Glitter Eyeshadow",
+      "price": 14.99,
+      "image": "https://i.ibb.co/FsdxLfM/812-Oic-Fa-N6-L.jpg",
+      "category": "Eyes",
+      "brand_name": "StarryEyes"
+    }
+  ]
+  
