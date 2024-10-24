@@ -60,7 +60,7 @@ const MakeUpStories = () => {
       className="" />
   </figure>
   <Fade>
-  <div className="card-body   text-white">
+  <div className="card-body text-white">
     <h2 className="card-title uppercase font-bold">Match lipsticks shades with your outfits</h2>
     <p>Marie Whitley</p>
     
