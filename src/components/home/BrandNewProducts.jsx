@@ -6,12 +6,12 @@ import { Autoplay, Pagination, Navigation  } from 'swiper/modules';
 import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
-const NewArrivalCard = () => {
+const BrandNewProducts = () => {
     return (
         <div>
-            <div className="mt-20">
-                <p className="text-center font-bold">MAKEUPS FOR YOU</p>
-                <h1 className="text-center font-bold text-4xl">PERFECT MATCH</h1>
+             <div className="mt-20">
+                <p className="text-center font-bold uppercase">Brand New</p>
+                <h1 className="text-center font-bold text-4xl uppercase">Beauty Products</h1>
             </div>
             <div className='mt-20'>
                 <Swiper
@@ -122,7 +122,7 @@ const HoverableCard = ({ defaultImage, hoverImage, title, description }) => {
                     alt="Full Card Image"
                     className="w-full h-full object-cover"
                 />
-                <Fade><button className='uppercase bg-black text-white font-bold p-2 px-6 absolute bottom-10 left-28'>go to shop</button></Fade>
+                <Fade><button className='uppercase bg-black text-white font-bold p-2 px-6 absolute bottom-10 left-28'>add to cart</button></Fade>
                </div>
                 
             ) : (
@@ -158,15 +158,18 @@ const HoverableCard = ({ defaultImage, hoverImage, title, description }) => {
     </svg>
     
 </div>
+<p>$30.00</p>
 
                         <div className="card-actions">
-                            <button className="uppercase btn btn-outline text-black font-bold p-2 px-6 mt-5 ">go to shop</button>
+                            <button className="uppercase btn btn-outline text-black font-bold p-2 px-6 mt-5 ">add to cart</button>
                         </div>
                     </div>
                 </div>
             )}
+
+            
         </div>
     );
 };
 
-export default NewArrivalCard;
+export default BrandNewProducts;

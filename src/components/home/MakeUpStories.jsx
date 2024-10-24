@@ -12,7 +12,7 @@ const MakeUpStories = () => {
           <div className="flex lg:flex-row flex-col justify-center items-center gap-2">
             {/* div 1 */}
             <div className="card bg-black lg:w-96 shadow-xl mt-16 lg:transition-transform lg:duration-500 lg:ease-in-out lg:transform lg:hover:scale-110">
-  <div className=""> {/* Add overflow-hidden here */}
+  <div className=""> 
     <figure className="lg:px-10 lg:pt-10 px-2 pt-2">
       <img
         src="https://i.ibb.co.com/jGkWK4V/Home1-blog-list-single-1-650x866.jpg"
