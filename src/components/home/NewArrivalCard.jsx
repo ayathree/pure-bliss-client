@@ -31,10 +31,8 @@ const NewArrivalCard = () => {
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    modules={[Autoplay, Pagination, Navigation]}
+                   
+                    modules={[Autoplay,  Navigation]}
                     className="mySwiper"
                 >
                     <SwiperSlide>

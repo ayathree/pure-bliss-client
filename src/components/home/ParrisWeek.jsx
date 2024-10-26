@@ -31,7 +31,7 @@ const ParrisWeek = () => {
     };
 
     return (
-        <div className="bg-black p-5 slider-container">
+        <div className="bg-black p-5 slider-container mt-20">
             <h1 className="uppercase font-bold text-4xl text-white text-center m-16">#parris_week</h1>
             <Slider {...settings}>
                 <div className="p-2">
