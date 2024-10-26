@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation  } from 'swiper/modules';
 import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
+import { FaRegHeart } from 'react-icons/fa';
 
 const BrandNewProducts = () => {
     return (
@@ -127,7 +128,11 @@ const HoverableCard = ({ defaultImage, hoverImage, title, description }) => {
                 
             ) : (
                 // When not hovered, show this content
-                <div>
+                <div className='bg-slate-50'>
+                    <div className='flex flex-row justify-around items-center mt-5'>
+                        <p className='bg-black text-white px-2'>NEW</p>
+                        <FaRegHeart />
+                    </div>
                     <figure className="px-10 pt-10">
                         <img
                             src={defaultImage}

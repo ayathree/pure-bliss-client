@@ -127,7 +127,7 @@ const HoverableCard = ({ defaultImage, hoverImage, title, description }) => {
                 
             ) : (
                 // When not hovered, show this content
-                <div>
+                <div className='bg-slate-50'>
                     <figure className="px-10 pt-10">
                         <img
                             src={defaultImage}
