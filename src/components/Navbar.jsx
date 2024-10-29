@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../css/CSS.css';  
 import { FaRegHeart } from 'react-icons/fa';
 import { IoBagOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -62,8 +63,8 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 <div className={`${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-2 transition-all duration-300 ease-in-out bg-white text-black lg:text-white top-16 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0`}>
                     <div className="py-3 lg:mt-20 flex flex-col lg:flex-row lg:justify-center items-start lg:items-center">
-                        <a className="mx-4 text-xs uppercase font-bold hover:underline" href="#">Home</a>
-
+                       <Link to={'/'}> <a className="mx-4 text-xs uppercase font-bold hover:underline" href="#">Home</a>
+                       </Link>
                         {/* Dropdown */}
                         <div className="relative group">
     <a className="mx-4 px-4 py-2  rounded text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:underline md:my-0" href="#">
@@ -71,7 +72,7 @@ const Navbar = () => {
     </a>
     <div className="absolute left-0 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 ease-in-out bg-white text-black p-3 mt-1 rounded shadow-lg z-10 group-hover:pointer-events-auto pointer-events-none">
         <div className="flex flex-col space-y-2">
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">About Us</a>
+           <Link to={'/aboutUs'}> <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">About Us</a></Link>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Our Collections</a>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Contact Us</a>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Brand List</a>
