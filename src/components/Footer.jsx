@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer   p-10 mt-20">
+            <footer className="footer   p-10 mt-20 px-20">
   <aside>
     <p className="uppercase font-bold text-4xl">Pure bliss</p>
     
@@ -30,7 +30,7 @@ const Footer = () => {
     <a className="link link-hover">Contact us</a>
   </nav>
 </footer>
-<footer className="footer  items-center p-4">
+<footer className="footer  items-center p-4 px-20">
   <aside className="grid-flow-col items-center">
     
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
