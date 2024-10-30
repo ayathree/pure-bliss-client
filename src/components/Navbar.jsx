@@ -74,7 +74,7 @@ const Navbar = () => {
         <div className="flex flex-col space-y-2">
            <Link to={'/aboutUs'}> <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">About Us</a></Link>
             <Link to={'/ourCollection'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Our Collections</a></Link>
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Contact Us</a>
+            <Link to={'/contactUs'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Contact Us</a></Link>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Brand List</a>
         </div>
     </div>

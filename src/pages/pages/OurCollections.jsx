@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import ParrisWeek from "../../components/home/ParrisWeek";
 
 
 const OurCollections = () => {
@@ -19,12 +20,18 @@ const OurCollections = () => {
             {/* section 2 */}
             <div className="grid lg:grid-cols-3 lg:grid-rows-2 grid-cols-1 grid-rows-5 md:grid-cols-2 md:grid-rows-3 justify-center items-center gap-8 mt-28 lg:px-20 px-7">
     {/* Row-span image takes the full height of two rows */}
-    <div className=" md:col-span-2 md:row-span-1   lg:row-span-2 lg:col-span-1  h-full w-full">
+    <div className=" md:col-span-2 md:row-span-1 relative   lg:row-span-2 lg:col-span-1  h-full w-full">
         <img
             className="h-full w-full object-cover"
             src="https://i.ibb.co.com/S6yfywm/portfolio-featured-11.jpg"
             alt=""
         />
+        <div className="absolute inset-0 flex flex-col items-center justify-center ">
+                    <h1 className="uppercase font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+                    Perfect <br /> foundation
+                    </h1>
+                    <button className="btn btn-outline hover:bg-black uppercase mt-10 px-10 text-white">shop now</button>
+                </div>
     </div>
     
     {/* Smaller images filling half of each row */}
@@ -130,12 +137,18 @@ const OurCollections = () => {
     </div>
     </Fade>
     </div>
-    <div className=" lg:row-span-2 lg:col-span-1 md:col-span-2 h-full w-full">
+    <div className=" lg:row-span-2 lg:col-span-1 relative md:col-span-2 h-full w-full">
         <img
             className="h-full w-full object-cover"
             src="https://i.ibb.co.com/SXrGwBV/port-standard-img-01.jpg"
             alt=""
         />
+        <div className="absolute inset-0 flex flex-col items-center justify-center ">
+                    <h1 className="uppercase font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+                    Find your <br /> intense <br /> lipstick
+                    </h1>
+                    <button className="btn btn-outline hover:bg-black uppercase mt-10 px-10 text-white">shop now</button>
+                </div>
     </div>
     <div className="h-full w-full relative">
         <img
@@ -174,6 +187,9 @@ const OurCollections = () => {
    
    
 </div>
+{/* section 4 */}
+
+<ParrisWeek></ParrisWeek>
 
             <div></div>
         </div>
