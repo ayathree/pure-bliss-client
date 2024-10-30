@@ -4,9 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay,  Navigation } from 'swiper/modules';
-import slider1 from '../../assets/slider1.jpg';
-import slider2 from '../../assets/slider2.jpg';
-import slider3 from '../../assets/slider3.jpg';
+
 import { Fade } from 'react-awesome-reveal';
 
 const Slider = () => {
@@ -36,7 +34,7 @@ const Slider = () => {
             }}
           >
             <img
-              src={slider1}
+              src="https://i.ibb.co.com/t2HQjzp/about-page-img-3-1536x574.jpg"
               alt="Slide 1"
               style={{
                 height: '80vh', // Adjust image height according to viewport height
@@ -86,7 +84,7 @@ const Slider = () => {
             }}
           >
             <img
-              src={slider2}
+              src="https://i.ibb.co.com/6t1rXK5/port-1-gallery-img-3-2.jpg"
               alt="Slide 2"
               style={{
                 height: '80vh',
@@ -137,7 +135,7 @@ const Slider = () => {
             }}
           >
             <img
-              src={slider3}
+              src="https://i.ibb.co.com/v1L96Xs/port-featured-img-013.jpg"
               alt="Slide 3"
               style={{
                 height: '80vh',

@@ -37,7 +37,7 @@ const NewArrivalCard = () => {
                 >
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/HGmYCL3/mac-sku-M3-EW04-1x1-0.png"
+                            defaultImage="https://i.ibb.co.com/RgF5Y0v/shop-img-40.jpg"
                             hoverImage="https://i.ibb.co/yPVnH26/hover-full-img-05.jpg"
                             title="Lipstick"
                             description="Choose your shade"
@@ -46,7 +46,7 @@ const NewArrivalCard = () => {
 
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/pySkPMw/pngtree-mascara-black-supplies-png-image-6325931.png"
+                            defaultImage="https://i.ibb.co.com/7Jj3fN0/shop-test-img-01.jpg"
                             hoverImage="https://i.ibb.co/SV1bbGW/hover-full-img-02.jpg"
                             title="Mascara"
                             description="Find the best mascara for your look!"
@@ -55,7 +55,7 @@ const NewArrivalCard = () => {
 
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/9bgzmQN/pngtree-cosmetic-foundation-cream-bottle-picture-image-7953503.png"
+                            defaultImage="https://i.ibb.co.com/2ZsptF1/shop-img-39.jpg"
                             hoverImage="https://i.ibb.co/FB3SGSB/hover-full-img-04.jpg"
                             title="Foundation"
                             description="The perfect foundation for all skin types."
@@ -64,7 +64,7 @@ const NewArrivalCard = () => {
 
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/T8CsjyM/mac-sku-M22017-1x1-1.png"
+                            defaultImage="https://i.ibb.co.com/y5QWH0Z/shop-img-7.jpg"
                             hoverImage="https://i.ibb.co/fqtfxT9/hover-full-img-03.jpg"
                             title="Blush"
                             description="Perfectly balanced makeup!"
@@ -73,7 +73,7 @@ const NewArrivalCard = () => {
 
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/yV67FP6/103.png"
+                            defaultImage="https://i.ibb.co.com/sVV1nb7/shop-img-41.jpg"
                             hoverImage="https://i.ibb.co/drsZtNs/hover-full-img-06.jpg"
                             title="Concealer"
                             description="Enhance your beauty!"
@@ -82,7 +82,7 @@ const NewArrivalCard = () => {
 
                     <SwiperSlide>
                         <HoverableCard
-                            defaultImage="https://i.ibb.co/VTYrWFb/bright-red-nail-polish-bottle-with-brush-exposed-cut-out-transparent-png.png"
+                            defaultImage="https://i.ibb.co.com/cvK8ghH/shop-img-10.jpg"
                             hoverImage="https://i.ibb.co/Jc10g0S/hover-full-img-01.jpg"
                             title="Nail Polish"
                             description="Get a bright red nail polish now!"
