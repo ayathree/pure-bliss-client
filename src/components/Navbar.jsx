@@ -101,8 +101,8 @@ const Navbar = () => {
         <div className="flex flex-col space-y-2">
             <Link to={'/myAccount'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">My Account</a></Link>
            <Link to={'/cart'}> <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Cart</a></Link>
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Checkout</a>
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Order Tracking</a>
+            <Link to={'/checkout'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Checkout</a></Link>
+            <Link to={'/orderTracking'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Order Tracking</a></Link>
         </div>
     </div>
 </div>
