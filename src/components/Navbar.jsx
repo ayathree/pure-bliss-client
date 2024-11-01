@@ -75,7 +75,7 @@ const Navbar = () => {
            <Link to={'/aboutUs'}> <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">About Us</a></Link>
             <Link to={'/ourCollection'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Our Collections</a></Link>
             <Link to={'/contactUs'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Contact Us</a></Link>
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Brand List</a>
+            <Link to={'/brandList'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Brand List</a></Link>
         </div>
     </div>
 </div>
