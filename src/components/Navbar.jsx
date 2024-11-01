@@ -99,7 +99,7 @@ const Navbar = () => {
     </a>
     <div className="absolute left-0 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 ease-in-out bg-white text-black p-3 mt-1 rounded shadow-lg z-10 group-hover:pointer-events-auto pointer-events-none">
         <div className="flex flex-col space-y-2">
-            <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">My Account</a>
+            <Link to={'/myAccount'}><a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">My Account</a></Link>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Cart</a>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Checkout</a>
             <a href="#" className="px-4 py-2 text-sm font-medium hover:bg-gray-200 rounded transition-colors duration-200">Order Tracking</a>
