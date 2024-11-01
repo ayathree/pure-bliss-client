@@ -4,7 +4,7 @@ import ParrisWeek from "../../components/home/ParrisWeek";
 const MyAccount = () => {
     return (
         <div>
-           <div className="m-28">
+           <div className="lg:m-28 p-5">
            <h1 className="uppercase text-6xl font-bold">Login</h1>
             <form >
                 <p className="mt-8">Email address *</p>

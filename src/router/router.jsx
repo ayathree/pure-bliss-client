@@ -6,6 +6,7 @@ import OurCollections from "../pages/pages/OurCollections";
 import ContactUs from "../pages/pages/ContactUs";
 import BrandList from "../pages/pages/BrandList";
 import MyAccount from "../pages/shop/MyAccount";
+import Cart from "../pages/shop/Cart";
 
 
 export const router = createBrowserRouter([
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
         {
           path:'/myAccount',
           element:<MyAccount></MyAccount>
+        },
+        {
+          path:'/cart',
+          element:<Cart></Cart>
         }
       ]
 
