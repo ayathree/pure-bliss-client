@@ -1,9 +1,15 @@
+// import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 
 const Makeups = () => {
     const [makeups, setMakeups]=useState([])
     const [loading, setLoading]= useState(false)
+
+    // const{data, isLoading}=useQuery({
+
+    // })
 
     useEffect(()=>{
         setLoading(true)
@@ -17,7 +23,9 @@ const Makeups = () => {
     if (loading) return <span className="loading loading-spinner loading-lg"></span>
     return (
         <div>
-            <h1>{makeups.length}</h1>
+            <Helmet>
+                <title>Store | Makeup</title>
+            </Helmet>
            {
             makeups.map(makeup=>(
                 <div key={makeup.id}  className="card bg-base-100 w-96 shadow-xl">
