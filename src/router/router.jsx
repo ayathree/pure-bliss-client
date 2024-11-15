@@ -10,6 +10,8 @@ import Cart from "../pages/shop/Cart";
 import CheckOut from "../pages/shop/CheckOut";
 import OrderTracking from "../pages/shop/OrderTracking";
 import Makeups from "../pages/store/Makeups";
+import Register from "../pages/shop/Register";
+import Private from "./Private";
 
 
 export const router = createBrowserRouter([
@@ -43,19 +45,23 @@ export const router = createBrowserRouter([
         },
         {
           path:'/cart',
-          element:<Cart></Cart>
+          element:<Private><Cart></Cart></Private>
         },
         {
           path:'/checkout',
-          element:<CheckOut></CheckOut>
+          element:<Private><CheckOut></CheckOut></Private>
         },
         {
           path:'/orderTracking',
-          element:<OrderTracking></OrderTracking>
+          element:<Private><OrderTracking></OrderTracking></Private>
         },
         {
           path:'/makeup',
           element:<Makeups></Makeups>
+        },
+        {
+          path:'/register',
+          element:<Register></Register>
         }
       ]
 

@@ -3,9 +3,15 @@ import '../css/CSS.css';
 import { FaRegHeart } from 'react-icons/fa';
 import { IoBagOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
+import useAuth from '../hooks/useAuth';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const{user, logOut}=useAuth()
+
+    const handleLogout=()=>{
+        logOut()
+    }
 
     return (
         <nav className="relative bg-black text-white shadow ">
@@ -38,16 +44,19 @@ const Navbar = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                     </svg>
                                 ) : (
+                                
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
                                     </svg>
                                 )}
+                                
                             </button>
                         </div>
                     </div>
 
                     <div className='hidden lg:block'>
                         <div className="flex flex-row">
+                        
                             <div className='lg:flex lg:flex-row lg:items-center'>
                                 <a className="my-2 text-sm transition-colors duration-300 transform hover:text-blue-600 hover:underline md:mx-4 md:my-0" href="#">WishList</a>
                                 <FaRegHeart />
@@ -95,7 +104,7 @@ const Navbar = () => {
 </div>
 <div className="relative group">
     <a className="mx-4 px-4 py-2  rounded text-xs leading-5 uppercase font-bold lg:text-white transition-colors duration-300 transform dark:text-gray-200 hover:underline md:my-0" href="#">
-        Shop
+        Shop 
     </a>
     <div className="absolute left-0 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 ease-in-out bg-white text-black p-3 mt-1 rounded shadow-lg z-10 group-hover:pointer-events-auto pointer-events-none">
         <div className="flex flex-col space-y-2">
@@ -112,6 +121,13 @@ const Navbar = () => {
                         
                         
                         <a className="mx-4 text-xs uppercase font-bold hover:underline" href="#">Blog</a>
+                        {
+                            user ?<>
+                             <a onClick={handleLogout} className="mx-4 text-lg uppercase font-bold text-[#6ee7b7] " href="#">Log Out</a>
+                             <div className="badge badge-accent font-bold">{user.email}</div>
+                            </> :
+                            <></>
+                        }
                     </div>
                 </div>
             </div>
