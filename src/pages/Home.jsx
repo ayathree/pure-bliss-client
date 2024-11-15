@@ -4,11 +4,15 @@ import NewArrivalCard from "../components/home/NewArrivalCard";
 import ParrisWeek from "../components/home/ParrisWeek";
 import ProductForLips from "../components/home/ProductForLips";
 import Slider from "../components/home/Slider";
+import {Helmet} from "react-helmet";
 
 
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Pure Bliss | Home</title>
+            </Helmet>
             
             <Slider></Slider>
             <NewArrivalCard></NewArrivalCard>

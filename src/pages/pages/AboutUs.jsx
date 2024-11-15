@@ -1,9 +1,11 @@
 import  { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
+
 import Slider from "react-slick";
  import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Helmet } from 'react-helmet';
 
 
 const AboutUs = () => {
@@ -47,6 +49,9 @@ const AboutUs = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Pages | About Us</title>
+            </Helmet>
             <div className="relative overflow-hidden">
                 <img
                     className="object-cover w-full h-28 md:h-48 lg:h-96"

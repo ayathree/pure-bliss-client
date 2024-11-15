@@ -9,6 +9,7 @@ import MyAccount from "../pages/shop/MyAccount";
 import Cart from "../pages/shop/Cart";
 import CheckOut from "../pages/shop/CheckOut";
 import OrderTracking from "../pages/shop/OrderTracking";
+import Makeups from "../pages/store/Makeups";
 
 
 export const router = createBrowserRouter([
@@ -51,6 +52,10 @@ export const router = createBrowserRouter([
         {
           path:'/orderTracking',
           element:<OrderTracking></OrderTracking>
+        },
+        {
+          path:'/makeup',
+          element:<Makeups></Makeups>
         }
       ]
 
